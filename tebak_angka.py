@@ -32,4 +32,5 @@ if st.button("Ulangi Game"):
     st.session_state.angka_rahasia = random.randint(1, 100)
     st.session_state.tebakan_terakhir = None
     st.session_state.pesan = ""
-    st.experimental_rerun()
+    st.rerun()
+
